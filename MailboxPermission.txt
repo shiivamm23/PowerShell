@@ -1,0 +1,10 @@
+Remove-MailboxPermission -Identity "Yuuto Sasaki" -User "Pedro Pizarro" -AccessRights FullAccess -InheritanceType All
+This example removes Pedro Pizarro's full access permission to Yuuto Sasaki's mailbox.
+ 
+ 
+Add-MailboxPermission -Identity pcc.regulatorynotifications@piramal.com -User Vanita.Kirtane@piramal.com -AccessRights FullAccess -AutoMapping:$true
+ 
+ 
+Get-MailboxFolderPermission -identity mailbox.name
+ 
+Get-MailboxPermission -identity mailbox.name
