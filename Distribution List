@@ -1,3 +1,0 @@
-To Get Mail Sending Access Report :
-
-(Get-DistributionGroup PFSS.India@pfss.in).AcceptMessagesOnlyFromSendersOrMembers | Get-Recipient | Select DisplayName,PrimarySmtpAddress,Alias,RecipientTypeDetails | Export-Csv D:\PFSS.India.csv -NoTypeInformation -Encoding UTF8
