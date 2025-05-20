@@ -1,0 +1,1 @@
+Add-MailboxPermission -Identity pplgstcustomer.gbss@piramal.com -User sundar.dhotre@piramal.com -AccessRights FullAccess -AutoMapping $true

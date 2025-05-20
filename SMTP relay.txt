@@ -1,0 +1,10 @@
+telnet email.piramal.com 25
+HELO
+MAIL FROM: helpdesk-morpeth@piramal.com
+RCPT TO: mail.admin@piramal.com
+RCPT TO: silky.saluja@piramal.com
+RCPT TO: nagarajan.c@piramal.com
+DATA
+Subject: Test Email Subject
+This is the body of the test message.
+.
