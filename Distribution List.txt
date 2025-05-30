@@ -1,0 +1,15 @@
+FOR ADDING BULK MEMBERS IN THE DISTRIBUTION LIST
+
+Get-Content D:\users.txt | Add-DistributionGroupMember "piramalfinance.marketing@piramal.com"
+
+______________________________________________________________________________________________
+ 
+ - FOR COUNT :
+
+(Get-DistributionGroupMember "piramalfinance.marketing@piramal.com" -resultsize unlimited).count
+ 
+______________________________________________________________________________________________
+
+- FOR REMOVING BULK MEMBERS FROM DISTRIBUTION LIST :
+
+Get-Content D:\users.txt | Remove-DistributionGroupMember piramalfinance.marketing@piramal.com

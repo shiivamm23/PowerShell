@@ -1,0 +1,4 @@
+Full Crawl For Mailbox Archive
+
+Start-ManagedFolderAssistant -Identity karan.patil2@piramal.com -FullCrawl
+
